@@ -5,12 +5,48 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
+	<style>
+		body{
+			background-color: black;
+		}
+		.moviePic{
+			height: 60vh;
+			opacity: 0.9;
+			display: block;
+			margin: auto;
+			width: 300px;
+			border-radius: 10px;		
+			    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+		}
+		.movieDetail{
+			color: white;
+			font-family: Arial, sans-serif;
+			position: relative;
+            width: 80%;
+			text-align: center;
+			font-size: 18px;
+			font-weight: bold;
+			margin: 0 auto;
+			max-width: 600px;
+			top: 50px;
+		}
+		.moviePic:hover{
+			opacity: 1;
+			transform: scale(1.05);
+			transition: all 0.3s ease;
+		}
+	</style>
 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+	<img class="moviePic" alt="Movie Poster" src="https://www.tvguide.com/a/img/catalog/provider/2/2/2-06427c7333d3e7c67dfb749366b8190a.jpg">
 
+	<p class="movieDetail">
+		"Kabir Singh" is a 2019 Indian romantic drama film directed by Sandeep Reddy Vanga, starring Shahid Kapoor and Kiara Advani, and is a remake of the Telugu film "Arjun Reddy."
+	</p>
+	
 </body>
 
 </html>
